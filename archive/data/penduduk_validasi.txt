@@ -1,0 +1,7 @@
+Sheet dipakai: Sheet1
+Deteksi kolom -> kode: 'CC_4', nama: 'NAME_4', penduduk: 'PENDUDUK'
+Cakupan CC_4 (match boundary): 100.00%
+Duplikat CC_4 (baris asli): 8 kode; total baris: 41
+Baris tanpa CC_4 (asli): 25
+Output clean: C:\projek-peta-kriminal-pbg\data\processed\penduduk_clean_for_join.csv
+Issue files: C:\projek-peta-kriminal-pbg\outputs\penduduk_duplicates.csv, C:\projek-peta-kriminal-pbg\outputs\penduduk_unmapped.csv

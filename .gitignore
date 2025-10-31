@@ -1,0 +1,24 @@
+# Python umum
+__pycache__/
+*.pyc
+.venv/
+env/
+.ipynb_checkpoints/
+
+# Konfigurasi lokal & rahasia
+*.env
+.env.*
+*.log
+
+# Output berat/antara
+outputs/cache/
+outputs/tmp/
+outputs/data/rasters/*.tif
+outputs/data/rasters/*.tiff
+outputs/data/rasters/*.npy
+outputs/data/rasters/*_wgs84.tif
+outputs/data/rasters/*_utm*.tif
+
+# Jika ada data sensitif/mentah titik
+data/private/**
+data/raw/**/*.zip

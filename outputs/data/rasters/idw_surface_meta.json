@@ -1,0 +1,40 @@
+{
+    "grid_resolution_m": 100.0,
+    "padding_m": 1000.0,
+    "grid_dimensions": {
+        "nx": 419,
+        "ny": 390
+    },
+    "bounds_wgs84": {
+        "lat_min": -7.493499756999933,
+        "lon_min": 109.22367096000005,
+        "lat_max": -7.161180019999955,
+        "lon_max": 109.58451843200004
+    },
+    "bounds_wgs84_padded": {
+        "lat_min": -7.502482868749843,
+        "lon_min": 109.21461388544512,
+        "lat_max": -7.152196908250045,
+        "lon_max": 109.59357550655497
+    },
+    "idw_params": {
+        "p": 2,
+        "k": 12,
+        "radius": null
+    },
+    "scaling": {
+        "vmin": 0.0,
+        "vmax": 50.0
+    },
+    "hotspot_params": {
+        "alpha_max": 0.95,
+        "alpha_gamma": 0.6,
+        "alpha_cutoff_rel": 0.05
+    },
+    "output_paths": {
+        "filled_png": "outputs\\data\\rasters\\idw_surface_filled.png",
+        "hotspot_png": "outputs\\data\\rasters\\idw_surface_hotspot.png",
+        "numpy_array": "outputs\\data\\rasters\\idw_surface.npy",
+        "html_map": "outputs\\html\\06_idw_surface.html"
+    }
+}

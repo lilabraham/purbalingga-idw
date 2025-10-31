@@ -1,0 +1,5 @@
+patch_id,threshold_mode,threshold_value,threshold_laju,morph,n_pixels,area_ha,area_km2,mean_laju,max_laju,value_mean,value_max,centroid_lon,centroid_lat,n_villages,n_desa,desa_joined
+H1,pctl,95.0,39.36,"opening(conn=8, iter=1)",3956,3923.92,39.239,51.11,73.8,51.11,73.8,109.474031,-7.319103,23,23,"Baleraksa, Bantarbarang, Bodas Karangjati, Grantung, Karang Tengah, Karangasem, Karangsari, Kasih, Kertanegara, Makam, Pekiringan, Pepedan, Rajawana, Sidareja, Sumampir, Tajug, Tamansari, Tegalpingen, Tetel, Tumanggal, Wanogara Kulon, Wanogara Wetan, Wlahar"
+H3,pctl,95.0,39.36,"opening(conn=8, iter=1)",114,113.07,1.131,42.44,46.17,42.44,46.17,109.359206,-7.386406,6,6,"Kandang Gampang, Kembaran Kulon, Purbalingga Kidul, Purbalingga Kulon, Purbalingga Lor, Wirasana"
+H2,pctl,95.0,39.36,"opening(conn=8, iter=1)",26,25.79,0.258,40.39,41.51,40.39,41.51,109.381031,-7.37629,1,1,Kalikajar
+H4,pctl,95.0,39.36,"opening(conn=8, iter=1)",16,15.87,0.159,40.13,40.7,40.13,40.7,109.36656,-7.41087,2,2,"Grecol, Mewek"

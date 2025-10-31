@@ -1,0 +1,5 @@
+patch_id,n_cells,area_km2,value_mean,value_max,n_desa,centroid_lon,centroid_lat,desa_joined,threshold,percentile
+H1,3956,39.239,51.11,73.8,23,109.474031,-7.319103,"Baleraksa, Bantarbarang, Bodas Karangjati, Grantung, Karang Tengah, Karangasem, Karangsari, Kasih, Kertanegara, Makam, Pekiringan, Pepedan, Rajawana, Sidareja, Sumampir, Tajug, Tamansari, Tegalpingen, Tetel, Tumanggal, Wanogara Kulon, Wanogara Wetan, Wlahar",39.36,95.0
+H3,114,1.131,42.44,46.17,6,109.359206,-7.386406,"Kandang Gampang, Kembaran Kulon, Purbalingga Kidul, Purbalingga Kulon, Purbalingga Lor, Wirasana",39.36,95.0
+H2,26,0.258,40.39,41.51,1,109.381031,-7.37629,Kalikajar,39.36,95.0
+H4,16,0.159,40.13,40.7,2,109.36656,-7.41087,"Grecol, Mewek",39.36,95.0
