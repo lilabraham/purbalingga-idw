@@ -1,24 +1,40 @@
 # Python umum
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
+
+# Virtual env & IDE/editor
 .venv/
 env/
-.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
 # Konfigurasi lokal & rahasia
 *.env
 .env.*
 *.log
 
-# Output berat/antara
+# Output sementara/antara (aman untuk tidak dipush)
 outputs/cache/
 outputs/tmp/
-outputs/data/rasters/*.tif
-outputs/data/rasters/*.tiff
-outputs/data/rasters/*.npy
-outputs/data/rasters/*_wgs84.tif
-outputs/data/rasters/*_utm*.tif
 
-# Jika ada data sensitif/mentah titik
+# DATA SENSITIF/MENTAH (contoh)
 data/private/**
+
+# Arsip besar mentah yang tidak perlu dipush
 data/raw/**/*.zip
+
+# File sementara/editor
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Tooling/testing (opsional)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
