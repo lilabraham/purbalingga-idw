@@ -23,6 +23,8 @@ Repositori ini memuat pipeline pemetaan kerawanan berbasis **Inverse Distance We
 ## Menjalankan Pipeline (contoh)
 .\.venv\Scripts\Activate.ps1
 
+python -m http.server
+
 > Jalankan dari root repo (aktifkan environment Python lebih dulu).
 ```bash
 # 1) Ingest titik → join ke desa, hitung laju/100k per desa
@@ -33,3 +35,5 @@ python scripts/07_idw_surface.py
 
 # 3) Render webmap (overlay PNG inferno 0–50, klip batas, ekspor WGS84)
 python scripts/08_render_webmap.py
+
+python scripts/14_make_summary_charts.py

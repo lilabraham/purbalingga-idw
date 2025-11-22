@@ -3,10 +3,9 @@ Metode,Inverse Distance Weighting (IDW)
 Power (p),2
 Tetangga (k),12
 Radius,-
-Sampel LOOCV (n),44
-RMSE (LOOCV),33.71
-MAE (LOOCV),18.41
-RMSE (best_params.json),33.71
-MAE  (best_params.json),18.41
-"MAPE (%, pada desa dengan laju>0)",61.63 (coverage 97.73%)
-Legenda kontinu (vmin–vmax),0 – 50
+Sampel LOOCV (n),28
+RMSE (LOOCV),14.80
+MAE (LOOCV),10.00
+RMSE (best_params.json),14.80
+MAE  (best_params.json),10.00
+"MAPE (%, pada desa dengan laju>0)",45.78 (coverage 100%)

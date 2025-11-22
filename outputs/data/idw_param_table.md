@@ -1,0 +1,12 @@
+| Komponen | Nilai |
+|---|---|
+| Metode | Inverse Distance Weighting (IDW) |
+| Power (p) | 2 |
+| Tetangga (k) | 12 |
+| Radius | - |
+| Sampel LOOCV (n) | 28 |
+| RMSE (LOOCV) | 14.80 |
+| MAE (LOOCV) | 10.00 |
+| RMSE (best_params.json) | 14.80 |
+| MAE  (best_params.json) | 10.00 |
+| MAPE (%, pada desa dengan laju>0) | 45.78 (coverage 100%) |

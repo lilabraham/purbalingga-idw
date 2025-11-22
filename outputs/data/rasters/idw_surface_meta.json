@@ -23,8 +23,12 @@
         "radius": null
     },
     "scaling": {
-        "vmin": 0.0,
-        "vmax": 50.0
+        "vmin_laju": 0.0,
+        "vmax_laju": 50.0
+    },
+    "index_range": {
+        "min": 0.0,
+        "max": 1.0
     },
     "hotspot_params": {
         "alpha_max": 0.95,
